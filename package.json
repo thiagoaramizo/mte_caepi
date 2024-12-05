@@ -1,0 +1,39 @@
+{
+  "name": "mte_caepi",
+  "version": "1.0.0",
+  "description": "Serviços para consulta de EPIs no MTE",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thiago-pinaculo/mte_caepi.git"
+  },
+  "keywords": [
+    "mte",
+    "epi"
+  ],
+  "author": "Thiago Aramizo <aramizo@icloud.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thiago-pinaculo/mte_caepi/issues"
+  },
+  "homepage": "https://github.com/thiago-pinaculo/mte_caepi#readme",
+  "dependencies": {
+    "@types/adm-zip": "^0.5.7",
+    "@types/node-schedule": "^2.1.7",
+    "adm-zip": "^0.5.16",
+    "basic-ftp": "^5.0.5",
+    "exceljs": "^4.4.0",
+    "iconv-lite": "^0.6.3",
+    "node-schedule": "^2.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
